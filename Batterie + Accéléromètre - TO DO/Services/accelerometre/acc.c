@@ -75,9 +75,18 @@ int ACC_readY(){
 int is_good_inclination(){
 	int b=ACC_readX();
 	int a=ACC_readY();
-	if( a<1750 && a>1200 && b>1998){
+	double c = ((double)a)/((double)b);
+	//if( a<1750 && a>1200 && b>1998){
+	if(c>(0.69) && c<(0.98)){
 		return 1;
 	}else{
 		return 0;
 		}
 }
+// droit 0.81
+// penche mat droite < 45 0.75
+// penche m g  < 45 0.85
+//penche m d > 45 0.68
+// penche m g > 45 1.85
+// penche m d 45 0.70
+// penche m g 45 0.97

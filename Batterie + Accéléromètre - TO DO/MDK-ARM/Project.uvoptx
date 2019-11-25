@@ -159,14 +159,14 @@
           <Type>0</Type>
           <LineNumber>72</LineNumber>
           <EnabledFlag>1</EnabledFlag>
-          <Address>134220222</Address>
+          <Address>134220882</Address>
           <ByteObject>0</ByteObject>
           <HtxType>0</HtxType>
           <ManyObjects>0</ManyObjects>
           <SizeOfObject>0</SizeOfObject>
           <BreakByAccess>0</BreakByAccess>
           <BreakIfRCount>1</BreakIfRCount>
-          <Filename>../Src/main.c</Filename>
+          <Filename>U:\Windows\Bureau\4A\TP infomat\Projet X\AccÃ©lÃ©romÃ¨tre - DONE\Src\main.c</Filename>
           <ExecCommand></ExecCommand>
           <Expression>\\NUCLEO_F103RB\../Src/main.c\72</Expression>
         </Bp>
@@ -175,14 +175,14 @@
           <Type>0</Type>
           <LineNumber>70</LineNumber>
           <EnabledFlag>1</EnabledFlag>
-          <Address>134220220</Address>
+          <Address>134220880</Address>
           <ByteObject>0</ByteObject>
           <HtxType>0</HtxType>
           <ManyObjects>0</ManyObjects>
           <SizeOfObject>0</SizeOfObject>
           <BreakByAccess>0</BreakByAccess>
           <BreakIfRCount>1</BreakIfRCount>
-          <Filename>../Src/main.c</Filename>
+          <Filename>U:\Windows\Bureau\4A\TP infomat\Projet X\AccÃ©lÃ©romÃ¨tre - DONE\Src\main.c</Filename>
           <ExecCommand></ExecCommand>
           <Expression>\\NUCLEO_F103RB\../Src/main.c\70</Expression>
         </Bp>
@@ -191,48 +191,32 @@
           <Type>0</Type>
           <LineNumber>48</LineNumber>
           <EnabledFlag>1</EnabledFlag>
-          <Address>134220198</Address>
+          <Address>134220858</Address>
           <ByteObject>0</ByteObject>
           <HtxType>0</HtxType>
           <ManyObjects>0</ManyObjects>
           <SizeOfObject>0</SizeOfObject>
           <BreakByAccess>0</BreakByAccess>
           <BreakIfRCount>1</BreakIfRCount>
-          <Filename>../Src/main.c</Filename>
+          <Filename>U:\Windows\Bureau\4A\TP infomat\Projet X\AccÃ©lÃ©romÃ¨tre - DONE\Src\main.c</Filename>
           <ExecCommand></ExecCommand>
           <Expression>\\NUCLEO_F103RB\../Src/main.c\48</Expression>
         </Bp>
         <Bp>
           <Number>3</Number>
           <Type>0</Type>
-          <LineNumber>79</LineNumber>
+          <LineNumber>80</LineNumber>
           <EnabledFlag>1</EnabledFlag>
-          <Address>134220178</Address>
+          <Address>134220794</Address>
           <ByteObject>0</ByteObject>
           <HtxType>0</HtxType>
           <ManyObjects>0</ManyObjects>
           <SizeOfObject>0</SizeOfObject>
           <BreakByAccess>0</BreakByAccess>
           <BreakIfRCount>1</BreakIfRCount>
-          <Filename>..\Services\accelerometre\acc.c</Filename>
+          <Filename>U:\Windows\Bureau\4A\TP infomat\Projet X\AccÃ©lÃ©romÃ¨tre - DONE\Services\accelerometre\acc.c</Filename>
           <ExecCommand></ExecCommand>
-          <Expression>\\NUCLEO_F103RB\../Services/accelerometre/acc.c\79</Expression>
-        </Bp>
-        <Bp>
-          <Number>4</Number>
-          <Type>0</Type>
-          <LineNumber>81</LineNumber>
-          <EnabledFlag>1</EnabledFlag>
-          <Address>134220182</Address>
-          <ByteObject>0</ByteObject>
-          <HtxType>0</HtxType>
-          <ManyObjects>0</ManyObjects>
-          <SizeOfObject>0</SizeOfObject>
-          <BreakByAccess>0</BreakByAccess>
-          <BreakIfRCount>1</BreakIfRCount>
-          <Filename>..\Services\accelerometre\acc.c</Filename>
-          <ExecCommand></ExecCommand>
-          <Expression>\\NUCLEO_F103RB\../Services/accelerometre/acc.c\81</Expression>
+          <Expression>\\NUCLEO_F103RB\../Services/accelerometre/acc.c\80</Expression>
         </Bp>
       </Breakpoint>
       <WatchWindow1>
@@ -260,6 +244,11 @@
           <count>4</count>
           <WinNumber>1</WinNumber>
           <ItemText>z</ItemText>
+        </Ww>
+        <Ww>
+          <count>5</count>
+          <WinNumber>1</WinNumber>
+          <ItemText>c</ItemText>
         </Ww>
       </WatchWindow1>
       <Tracepoint>
