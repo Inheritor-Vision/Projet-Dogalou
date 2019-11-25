@@ -19,7 +19,7 @@
 #include "stm32f1xx_ll_rcc.h" // utile dans la fonction SystemClock_Config
 #include "stm32f1xx_ll_utils.h"   // utile dans la fonction SystemClock_Config
 #include "stm32f1xx_ll_system.h" // utile dans la fonction SystemClock_Config
-#include "acc.h"
+#include "bat.h"
 #include "Chrono.h"
 
 
@@ -47,7 +47,7 @@ int main(void)
 	// Lancement chronomètre
 	Chrono_Start();
 	
-	ACC_init();
+	BAT_init();
 
 	
 	
@@ -69,7 +69,9 @@ USART1->CR2 |= (2<<12);*/
 	
   while (1)
   {
-  z = is_good_inclination();
+  z =  BAT_level();
+	x = BAT_verifyLevel();
+	
   }
 }
 
@@ -105,7 +107,7 @@ void SystemClock_Config(void)
   /* Enable HSE oscillator */
 	// ********* Commenter la ligne ci-dessous pour MCBSTM32 *****************
 	// ********* Conserver la ligne si Nucléo*********************************
-  //LL_RCC_HSE_EnableBypass();
+  LL_RCC_HSE_EnableBypass();
   LL_RCC_HSE_Enable();
   while(LL_RCC_HSE_IsReady() != 1)
   {
